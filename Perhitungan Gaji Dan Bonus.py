@@ -25,13 +25,13 @@ if status == "Tetap" or status == "Honor":
         total_gaji = gaji + bonus
 
         print("\n===Hasil Perhitungan===")
-        print("Nama: " + nama)
-        print("NIK: " + nik)
-        print("Status: " + status)
-        print("Golongan: " + golongan)
-        print("Gaji Pokok: Rp " + format(gaji, ','))
-        print("Bonus Golongan " + golongan + ": Rp " + format(bonus, ','))
-        print("Total Gaji: Rp " + format(total_gaji, ','))
+        print("Nama : " + nama)
+        print("NIK : " + nik)
+        print("Status : " + status)
+        print("Golongan : " + golongan)
+        print("Gaji Pokok : Rp " + format(gaji, ','))
+        print("Bonus Golongan " + golongan + " : Rp " + format(bonus, ','))
+        print("Total Gaji : Rp " + format(total_gaji, ','))
     else:
         print("Golongan tidak valid!")
 else:
